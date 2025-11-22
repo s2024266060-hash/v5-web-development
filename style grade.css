@@ -1,0 +1,18 @@
+.logo{
+    width: 50px;
+    display: inline;
+    background-color: antiquewhite;
+}
+.home{
+    display: inline;
+    padding-left: 420px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}

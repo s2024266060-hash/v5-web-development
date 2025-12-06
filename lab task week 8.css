@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "home home home"
+    "cotent cotent cotent"
+    "footer footer footer";
+}
+.home{
+    grid-area: home;
+    background-color: aqua;
+    height: 100px ;
+}
+.footer{
+    grid-area: footer;
+    background-color: blue;
+    height: 100px;
+}
+.cotent{
+    grid-area: cotent;
+    background-color: brown;
+}

@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;    
+    margin: 0;           
+    background-color: #f0f0f0;}
+
+.maincontainer {
+    background-color: rgb(0, 0, 0);
+    width: 350px;
+    padding: 20px;
+    border-radius: 40px;
+    height: 500px;
+}
+
+.icon {
+    padding-bottom: 30px;
+    background-color: black;
+    color: yellow;
+}
+
+.but {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px; 
+}
+
+.mainbut {
+    border-radius: 10px;
+    border: none;      
+    color: black;      
+    font-size: 22px;
+    padding: 10px;    
+}
+
+.ligbut { background-color: lightgray; }
+.darkbut { background-color: DarkGray; }
+.opbut { background-color: Orange; }
+
+#finalresult {
+    background: transparent; 
+    border: none;           
+    outline: none;           
+    width: 100%;             
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
